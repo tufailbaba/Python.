@@ -1,5 +1,5 @@
 x = [1,2,4,76543,3,4,543]
-y= ["Tufai","Baba","Don"]
+y= ["Tufail","Baba","Don"]
 z = 'Hello'
 
 sliced = x[::-1]

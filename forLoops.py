@@ -14,3 +14,4 @@ for item in num1:
     print("Element:", item)
 for i in range(len(num1)):
 	print(num1[i])
+ 

@@ -1,3 +1,4 @@
+#Input and print fn
 firstname = input('First Name: ' )
 lastname = input('Last Name: ' )
 age = input('age: ')

@@ -32,4 +32,17 @@ num7 = 8
 
 print(num7 ,not num8)
 
+#some programs on operators
+#Area of triangle
+num1 = float(input("Enter Base of the triangle"))
+num2 = float(input("Enter height of the triangle"))
+result = num1*num2*0.5
+print(result)
+
+#Perimeter of triangle
+num1 = float(input("Enter 1st side of the triangle"))
+num2 = float(input("Enter 2nd side of the triangle"))
+num3 = float(input("Enter 3rd side of the triangle"))
+result = num1*+num2+num3
+print("Perimeter Triangle: ", result)
 

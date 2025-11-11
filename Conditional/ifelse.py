@@ -19,3 +19,9 @@ marks = 45
 result = "Even" if  marks%2==0 else "Odd"
 print(result) 
 
+
+
+
+
+
+

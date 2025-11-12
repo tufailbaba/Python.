@@ -6,7 +6,9 @@
     
 num = float(input("Enter a number "))    
 num2 = float(input("Enter a range "))
+steps = float(input("Enter a steps "))
+ 
 
 while(num <= num2):
-    num += 5
+    num += steps
     print(num)    

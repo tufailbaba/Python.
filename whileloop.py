@@ -11,4 +11,7 @@ steps = float(input("Enter a steps "))
 
 while(num <= num2):
     num += steps
-    print(num)    
+    print(num) 
+    sum += num
+    print(sum)   
+    #homework sum of while loop

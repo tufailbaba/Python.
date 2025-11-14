@@ -1,6 +1,9 @@
-#Swapping values
-num1 = input("Enter 1st number ")
-num2 = input("Enter 2nd number ")
-print("Before swapping 1st number is: ",num1,"and 2nd number is: ",num2)
-num1, num2 = num2, num1
-print("After swapping 1st number is: ",num2, "and 2nd number is: ",num1)
+#Swapping values without using a 3rd variable
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+a = a + b
+b = a - b
+a = a - b
+print("After swapping:")
+print("First number: ", a)
+print("Second number: ", b)

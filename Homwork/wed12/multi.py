@@ -1,10 +1,6 @@
 #wap to print multiplication table of a given number using for loop
-# num = int(input("Enter a number"))
-
-# for i in range (1,11): #Here the entered number will get multiplied 10 times
-#     print(i * num)
-          
 num = int(input("Enter a number"))
-for i  in range (1,10):
-     print(i*num)         
+
+for i in range (1,11): #Here the entered number will get multiplied 10 times
+    print(i * num)
           

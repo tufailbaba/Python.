@@ -2,12 +2,12 @@
 
 #If username and password are correct - Login Successful
 
-#Otherwise - show remaining attempts.
+#Otherwise - sho w remaining attempts.
 def login():
-    username = "admin"
-    password = "1234"
+    username = "tufail"
+    password = "2580"
 
-    attempts = 3
+    attempts =3
 
     while attempts > 0:
         user = input("Enter username: ")
@@ -19,8 +19,8 @@ def login():
         else:
             attempts -= 1
             if attempts > 0:
-                print("Wrong credentials! Attempts left:", attempts)
+                print("Attempts left:", attempts)
             else:
-                print("No attempts left. Login failed.")
+                print("No attempts left.")
 
 login()

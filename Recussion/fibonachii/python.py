@@ -7,6 +7,10 @@ def function (num):
         return function(num - 1) + function(num - 2)
 
 print(function(num))
+f=open('my.code','w')
+f.write('')
+f.close()
+
   
 
 
